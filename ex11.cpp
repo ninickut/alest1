@@ -20,5 +20,22 @@ struct Pessoa
 int main()
 {
     Pessoa pessoas[10];
+    char comando;
+
+    // Loop
+    cin >> comando;
+
+    if ( comando == '+'){
+        // CHECAR SE TEM ESPAÇO
+            // SE SIM  >> Puxa função preencheVetor()
+            // SE NÂO  >> Mensagem e volta pro loop
+
+    }
+    else if (comando == '.'){
+        // Puxa função listaAniversariantesMes()
+    }
+    else{
+        cout << ">OPCAO INVALIDA";
+    }
 
 }
